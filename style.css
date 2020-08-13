@@ -1,0 +1,73 @@
+body
+{
+	font-size: 2.5em;
+	font-family: "Arial";
+	color: white;
+}
+
+.calculator
+{
+	width: 500px;
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: 0 0 8px 0 rgba(0,0,0,1);
+}
+
+.screen
+{
+	height: 200px;
+}
+
+.display
+{
+	height: 75%;
+	background-color: rgba(0,0,0,0.8);
+	text-align: right;
+	line-height: 150px;
+	padding-right: 20px;
+}
+
+table
+{
+	/*This is important!!*/
+	width: 100%;
+
+	margin: auto;
+	background-color: rgba(0,0,0,0.8);
+}
+
+
+td
+{
+	border: 1px solid #4f4e4e;
+	padding : 20px;
+	text-align: center;
+}
+
+
+.info
+{
+	height: 21%;
+	font-style: italic;
+	font-size: 0.65em;
+	padding-left: 10px;
+	padding-top: 10px;
+	color: rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.05);
+}
+
+
+.key:hover
+{
+	/*
+	border: 1px solid orange;
+	*/
+
+	box-shadow: 0px 0px 8px 2px orange;
+}
+
+.key:active
+{
+	border: 1px solid orange;
+	box-shadow: none;
+}
